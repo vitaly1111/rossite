@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Crabb</title>
+	<script defer src="js/main.min.js"></script>
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__menu">
+			<div class="container header__container">
+				<div class="row d-flex flex-row justify-content-start align-items-center header__nav-wrapper">
+					<a href="#" class="logo header__logo col col-3 col-sm-4 col-lg-2">
+						<img src="./images/logo.png" alt="crabb" class="header__logo-img">
+					</a>
+					<nav class="header__nav  col col-12 col-lg-7">
+						<ul class="header__nav-list d-flex flex-column  flex-sm-row justify-content-evenly lg-justify-content-start align-items-center">
+							<li class="header__nav-item header__nav-item--active"><a href="#"
+									class="header__nav-link">Главная </a></li>
+							<li class="header__nav-item"><a href="#" class="header__nav-link">Каталог</a></li>
+							<li class="header__nav-item"><a href="#" class="header__nav-link">Услуги</a></li>
+							<li class="header__nav-item"><a href="#" class="header__nav-link">О компании</a></li>
+							<li class="header__nav-item"><a href="#" class="header__nav-link">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="header__buttons col col-9 col-sm-8 col-lg-2 d-flex justify-content-end">
+						<button class="header__buttons-button header__buttons-search"><span>Поиск</span>
+							<img src="./images/search-ico.png" alt="search"></button>
+						<button class="header__buttons-button header__buttons-login"><span>Вход</span>
+							<img src="./images/user-ico.png" alt="user"></button>
+							<button class="burger header__burger d-flex d-lg-none" aria-label="open menu">
+								<span></span>
+								<span></span>
+								<span></span>
+							</button>
+					</div>
+				</div>
+			</div>
+		</div> <!--подключаем код хедера -->
+<div class="header__hero hero">
+	<div class="hero__wrapper">
+		<div class="container hero__container ">
+			<div class="row hero__inner d-flex flex-row nopadding">
+				<div class='col col-12 col-sm-7 col-lg-5 swiper__wrapper-left'>
+					<div class="swiper-container  gallery-top">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="swiper-slide-container">
+									<img class="hero__slider-img" src="images/slide_1.png" alt="slide"
+										class="swiper__slide-img">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="swiper-slide-container">
+									<img class="hero__slider-img" src="images/slide_2.png" alt="slide"
+										class="swiper__slide-img">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="swiper-slide-container">
+									<img style="max-width: 80%;" class="hero__slider-img" src="images/slide_3.png" alt="slide"
+										class="swiper__slide-img">
+								</div>
+							</div>
+
+						</div>
+
+
+
+						<!-- Arrows -->
+						<div class="swiper__button swiper__button-next">
+							<img class="swiper__button-img" src="images/arrow.svg" alt="left">
+						</div>
+						<div class="swiper__button swiper__button-prev">
+							<img class="swiper__button-img" src="images/arrow.svg" alt="preveous">
+						</div>
+					</div>
+				</div>
+				<div class="col col-12 col-md-7 swiper__wrapper-right">
+					<div class="swiper-container gallery-thumbs">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="swiper-slide-container">
+									<div class="hero__slide-info">
+										<div class="swiper__slide-suptitle">
+											Идеальное решение
+										</div>
+										<h2 class="swiper__slide-title">
+											Антивандальные автоматические
+											сушилки Crabb
+										</h2>
+										<h3 class="swiper__slide-subtitle">
+											Высокоскоростные, эргономичные, с двойным HEPA-фильтром
+										</h3>
+										<div class="swiper__slide-buttons">
+											<a href="#" class="swiper__slide-button swiper__slide-button--catalog">
+												Смотреть каталог
+											</a>
+											<button class="swiper__slide-button swiper__slide-button--call">
+												Заказать звонок
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="swiper-slide-container">
+									<div class="hero__slide-info">
+										<div class="swiper__slide-suptitle">
+											Идеальное решение
+										</div>
+										<h2 class="swiper__slide-title">
+											Антивандальные автоматические
+											сушилки Crabb
+										</h2>
+										<h3 class="swiper__slide-subtitle">
+											Высокоскоростные, эргономичные, с двойным HEPA-фильтром
+										</h3>
+										<div class="swiper__slide-buttons">
+											<a href="#" class="swiper__slide-button swiper__slide-button--catalog">
+												Смотреть каталог
+											</a>
+											<button class="swiper__slide-button swiper__slide-button--call">
+												Заказать звонок
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="swiper-slide-container">
+									<div class="hero__slide-info">
+										<div class="swiper__slide-suptitle">
+											Идеальное решение
+										</div>
+										<h2 class="swiper__slide-title">
+											Антивандальные автоматические
+											сушилки Crabb
+										</h2>
+										<h3 class="swiper__slide-subtitle">
+											Высокоскоростные, эргономичные, с двойным HEPA-фильтром
+										</h3>
+										<div class="swiper__slide-buttons">
+											<a href="#" class="swiper__slide-button swiper__slide-button--catalog">
+												Смотреть каталог
+											</a>
+											<button class="swiper__slide-button swiper__slide-button--call">
+												Заказать звонок
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- pagination -->
+						<div class="swiper__pagination"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div> <!-- полдключаем код hero -->
+</header>
+
+<main class="main">
+	<h1 class="main-title aria-hidden">Продукция Crabb</h1>
+	<section class="goods">
+		<div class="container main__container">
+			<div class="row d-flex align-items-center ">
+				<!-- указатели табов -->
+				<div class="col col-md-4 goods__info">
+					<div class="section__suptitle">
+						Основные категории
+					</div>
+					<h2 class="section__title">
+						Каталог продукции
+					</h2>
+					<h4 class="section__subtitle">
+						Производство и поставка оборудования
+					</h4>
+					<ul class="tabs__handlers goods__tabs-handlers">
+						<li class="tabs__handler goods__handler tabs__handler-active" data-tabs-handler='dryers'>
+							Сушилки для рук
+						</li>
+						<li class="tabs__handler goods__handler" data-tabs-handler="dispensers">
+							Дозаторы
+						</li>
+						<li class="tabs__handler goods__handler" data-tabs-handler="hair-dryers">
+							Фены для волос
+						</li>
+						<li class="tabs__handler goods__handler" data-tabs-handler="tables">
+							Пеленальные столики
+						</li>
+						<li class="tabs__handler goods__handler" data-tabs-handler="faucets">
+							Сенсорные смесители
+						</li>
+					</ul>
+					<!-- /указатели табов -->
+				</div>
+				<div class="col col-md-8">
+					<!-- поля данных табов -->
+					<ul class="tabs__field goods__field">
+						<!-- поле таб ручные сушилки -->
+						<li class="tabs__field-item tabs__field-visible " data-tabs-field="dryers">
+							<!-- слайдер товаров -->
+							<div class="swiper-container  goods__slider">
+
+								<div class="swiper-wrapper">
+									<!-- Slides -->
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img1.png" alt="сушилка
+																										для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img2.png" alt="сушилка
+																											для рук Crabb 07" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 07
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img3.png"
+													alt="лектрическая сушилка Crabb 04N" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая электрическая сушилка Crabb &nbsp; 04N
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img4.png" alt="сушилка
+																											для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img1.png" alt="сушилка
+																										для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img2.png" alt="сушилка
+																											для рук Crabb 07" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 07
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img3.png"
+													alt="лектрическая сушилка Crabb 04N" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая электрическая сушилка Crabb &nbsp; 04N
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img4.png" alt="сушилка
+																											для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<!-- If we need navigation buttons -->
+								<div class="goods-buttons">
+									<div class="goods-button goods-button goods-button-prev">
+										<img src="images/arrow_orange.png" alt="prev" class="goods-button-img">
+									</div>
+									<span></span>
+									<div class="goods-button goods-button-next">
+										<img src="images/arrow_orange.png" alt="prev" class="goods-button-img">
+									</div>
+								</div>
+
+							</div>
+						</li>
+						<!--поле таб дозаторы -->
+						<li class="tabs__field-item" data-tabs-field="dispensers">
+							<div class="swiper-container  goods__slider">
+
+								<div class="swiper-wrapper">
+									<!-- Slides -->
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img1.png" alt="сушилка
+																																					для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img2.png" alt="сушилка
+																																						для рук Crabb 07" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 07
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img3.png"
+													alt="лектрическая сушилка Crabb 04N" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая электрическая сушилка Crabb &nbsp; 04N
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img4.png" alt="сушилка
+																																						для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img1.png" alt="сушилка
+																																					для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img2.png" alt="сушилка
+																																						для рук Crabb 07" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 07
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img3.png"
+													alt="лектрическая сушилка Crabb 04N" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая электрическая сушилка Crabb &nbsp; 04N
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img4.png" alt="сушилка
+																																						для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<!-- If we need navigation buttons -->
+								<div class="goods-buttons">
+									<div class="goods-button goods-button goods-button-prev">
+										<img src="images/arrow_orange.png" alt="prev" class="goods-button-img">
+									</div>
+									<span></span>
+									<div class="goods-button goods-button-next">
+										<img src="images/arrow_orange.png" alt="prev" class="goods-button-img">
+									</div>
+								</div>
+
+							</div>
+						</li>
+						<!-- поле таб фены -->
+						<li class="tabs__field-item" data-tabs-field="hair-dryers">
+							<div class="swiper-container  goods__slider">
+
+								<div class="swiper-wrapper">
+									<!-- Slides -->
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img1.png" alt="сушилка
+																																					для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img2.png" alt="сушилка
+																																						для рук Crabb 07" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 07
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img3.png"
+													alt="лектрическая сушилка Crabb 04N" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая электрическая сушилка Crabb &nbsp; 04N
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img4.png" alt="сушилка
+																																						для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img1.png" alt="сушилка
+																																					для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img2.png" alt="сушилка
+																																						для рук Crabb 07" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 07
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img3.png"
+													alt="лектрическая сушилка Crabb 04N" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая электрическая сушилка Crabb &nbsp; 04N
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img4.png" alt="сушилка
+																																						для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<!-- If we need navigation buttons -->
+								<div class="goods-buttons">
+									<div class="goods-button goods-button goods-button-prev">
+										<img src="images/arrow_orange.png" alt="prev" class="goods-button-img">
+									</div>
+									<span></span>
+									<div class="goods-button goods-button-next">
+										<img src="images/arrow_orange.png" alt="prev" class="goods-button-img">
+									</div>
+								</div>
+
+							</div>
+						</li>
+						<!-- поле таб пеленальные столкики -->
+						<li class="tabs__field-item" data-tabs-field="tables">
+							<div class="swiper-container  goods__slider">
+
+								<div class="swiper-wrapper">
+									<!-- Slides -->
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img1.png" alt="сушилка
+																																					для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img2.png" alt="сушилка
+																																						для рук Crabb 07" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 07
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img3.png"
+													alt="лектрическая сушилка Crabb 04N" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая электрическая сушилка Crabb &nbsp; 04N
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img4.png" alt="сушилка
+																																						для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img1.png" alt="сушилка
+																																					для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img2.png" alt="сушилка
+																																						для рук Crabb 07" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 07
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img3.png"
+													alt="лектрическая сушилка Crabb 04N" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая электрическая сушилка Crabb &nbsp; 04N
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img4.png" alt="сушилка
+																																						для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<!-- If we need navigation buttons -->
+								<div class="goods-buttons">
+									<div class="goods-button goods-button goods-button-prev">
+										<img src="images/arrow_orange.png" alt="prev" class="goods-button-img">
+									</div>
+									<span></span>
+									<div class="goods-button goods-button-next">
+										<img src="images/arrow_orange.png" alt="prev" class="goods-button-img">
+									</div>
+								</div>
+
+							</div>
+						</li>
+						<!-- поле таб сенсорные смесители -->
+						<li class="tabs__field-item" data-tabs-field="faucets">
+							<div class="swiper-container  goods__slider">
+
+								<div class="swiper-wrapper">
+									<!-- Slides -->
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img1.png" alt="сушилка
+																																					для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img2.png" alt="сушилка
+																																						для рук Crabb 07" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 07
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img3.png"
+													alt="лектрическая сушилка Crabb 04N" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая электрическая сушилка Crabb &nbsp; 04N
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img4.png" alt="сушилка
+																																						для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img1.png" alt="сушилка
+																																					для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img2.png" alt="сушилка
+																																						для рук Crabb 07" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 07
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img3.png"
+													alt="лектрическая сушилка Crabb 04N" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая электрическая сушилка Crabb &nbsp; 04N
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 267х210х235 мм
+												</p>
+											</div>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="#" class="goods__slider-card">
+											<div class="goods__slider-image">
+												<img src="images/cards/card_img4.png" alt="сушилка
+																																						для рук Crabb 05" class="goods__slider-img">
+											</div>
+											<div class="goods__slider-info">
+												<h3 class="goods__slider-title">
+													Автоматическая сушилка
+													для рук Crabb 05
+												</h3>
+												<p class="goods__slider-descr">
+													Размеры: 685х300х210 мм
+												</p>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<!-- If we need navigation buttons -->
+								<div class="goods-buttons">
+									<div class="goods-button goods-button goods-button-prev">
+										<img src="images/arrow_orange.png" alt="prev" class="goods-button-img">
+									</div>
+									<span></span>
+									<div class="goods-button goods-button-next">
+										<img src="images/arrow_orange.png" alt="prev" class="goods-button-img">
+									</div>
+								</div>
+
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</section>
+</main> <!-- подключаем секцию  main-->
+<footer class="footer">
+	<p>footer</p>
+</footer> <!-- подключаем футер -->
+</div>
+</body>
+
+</html>

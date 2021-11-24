@@ -1,0 +1,34 @@
+/* стили секции  main*/
+
+.main {
+	&__container {
+		max-width: 1920px;
+		margin: 0 auto;
+		position: relative;
+	}
+}
+
+.section {
+	&__suptitle {
+		font-size: 12px;
+		letter-spacing: 1px;
+		color: #b7b9be;
+		text-transform: uppercase;
+		margin-bottom: 27px;
+	}
+	&__title {
+		font-size: 30px;
+		letter-spacing: 1px;
+		line-height: 39px;
+		font-weight: 500;
+		margin-bottom: 27px;
+	}
+	&__subtitle {
+		font-size: 17px;
+		letter-spacing: 2px;
+		line-height: 31px;
+		margin-bottom: 27px;
+	}
+}
+
+

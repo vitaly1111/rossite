@@ -1,0 +1,97 @@
+/* стили хедера и меню */
+
+.header {
+	letter-spacing: 2px;
+	line-height: 20px;
+	font-weight: 500;
+	padding-bottom: 90px;
+
+	height: 100vh;
+	max-height: 854px;
+	&__container {
+		
+		z-index: 20;
+		background-color: #000;
+	}
+	&__menu {
+		position: relative;
+		padding: 16px 0 12px;
+		border-bottom: 1px solid rgba(#ffffff, 0.5);
+		background-color: #000;
+		z-index: 22;
+		position: relative;
+		
+	}
+	&__nav {
+		margin-right: auto;
+		margin-left: 20px;
+		&-item {
+			position: relative;
+			text-align: center;
+
+			&::before {
+				display: block;
+				position: absolute;
+				content: "";
+				bottom: 0;
+				left: 0;
+				height: 1px;
+				width: 0;
+				background-color: #ff6f0f;
+				transition: width 0.5s;
+			}
+			&--active,
+			&:hover {
+				&::before {
+					width: 100%;
+				}
+			}
+		}
+		&-item + .header__nav-item {
+			margin-left: 80px;
+		}
+	}
+	&__buttons {
+		margin-right: 0;
+		nav-left: auto;
+		&-button {
+			font-size: 15px;
+			letter-spacing: 2px;
+			line-height: 20px;
+			color: #ffffff;
+			cursor: pointer;
+			span {
+				margin-right: 8px;
+			}
+			display: flex;
+			justify-content: start;
+			justify-content: center;
+			align-items: center;
+			padding: 0;
+			background-color: transparent;
+			border: none;
+		}
+		&-button + .header__buttons-button {
+			margin-left: 40px;
+		}
+	}
+
+	&__burger {
+		width: 40px;
+		height: 40px;
+		border: none;
+		background-color: transparent;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-left: 40px;
+		cursor: pointer;
+		span {
+			display: block;
+			width: 100%;
+			height: 2px;
+			background-color: #fff;
+		}
+	}
+}

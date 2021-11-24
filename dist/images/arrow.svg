@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 14" width="32" height="14">
+	<title>слайдер</title>
+	<defs>
+		<image width="56" height="25" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAZCAYAAABkdu2NAAABy0lEQVRYhd3VPU/CQBgH8BscXBkcHPgSDi4ODg4OfjsSmhgSEbESS0ya0AABQt0xYFCsd4VCUSAxBqEI9i2pAxb7FheITZ4n+S/33DXPL720CPdlVhoNKtJoUOmOhrfLjDxZrrv3/K5Jg2UCe75ne84F9DYRQZayFEdHkKrrigWsFpo2ZqrlE4QQQhowoAuHEEI1oRWrk2fLmQbBVkP8CcGWu4+tOrHXf3pYWMY+60nd94z10+yIPtxcVd04hBCiODoSY5idoJze3OzGGGaH4uiInaB9f/W8e4Ly17mgxNlMlLzIPtx1tXyMIFRNaMVUTYOJuyNPlPO7AQ9nGCvcbLF4A4NriDjhxWVKhaOw59pINUSc0A3jCyTuvk2SLtx8PqTLBRjX8r5NkrppunCXUN5csyOmQeJ4nt966Ihpw4O7KuUPw55t7bJxumGsfuKT+Wf/AgrusdfJeHHnpfxB2LOtXTbOME0X7hIKTpClrBP3MZvBwbV6fhyIa5nk+W0sd1mQOIqjI7gvs6YTpygSCBzP81vkVeacuPfpFKeKuf2wZ9tYCT0pu8IpU3xWzO2FPdNGK86y0fbgpTieTqRUDtCbc1acZaP/cS2/AbfWNFE9icrGAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="слайдер">
+		<g id="пагинация">
+			<use id="Слой 14 копия" href="#img1" transform="matrix(-0.571,0,0,-0.56,32,14)"/>
+		</g>
+	</g>
+</svg>

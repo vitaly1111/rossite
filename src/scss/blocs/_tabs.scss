@@ -1,0 +1,13 @@
+/* кастомные стили табов */
+.tabs {
+	&__field {
+		&-item {
+			display: none;
+
+			&.tabs__field-visible {
+				display: block !important;
+			}
+		}
+
+	}
+}
